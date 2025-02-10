@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: burlywood;
+}
+
+.img{
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 20vw;
+    border-radius: 45%;
+}
+
+.text{
+    display:block;
+
+}
+
+.text>h1,p{
+    display:flex;
+    justify-content: center;
+}
